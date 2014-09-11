@@ -10,7 +10,7 @@ Work Experience
 
 *   **[Dimagi][0]** (Cambridge, MA)
 
-    Contractor, January 2014 - present
+    Contractor, January 2014 - July 2014
 
     Software Engineer, September 2012 - December 2013
 
