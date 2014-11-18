@@ -2,8 +2,7 @@ This is a simple Markdown resumé template, LaTeX header, and pre-processing
 script that can be used with [Pandoc](http://johnmacfarlane.net/pandoc/) to
 create professional-looking PDF and HTML output.
 
-Dependencies
-------------
+## Dependencies
 
 * Pandoc >= 1.9 (you can adjust the Makefile to use an earlier version -- the
   arguments format changed)
@@ -15,8 +14,7 @@ Dependencies
 Be sure to run `git submodule update --init` to fetch the custom pandoc
 template which the resumé is based on.
 
-Usage
------
+## Usage
 
 Simply run `make` to generate PDF and HTML versions of each .md file in the
 directory.
@@ -30,3 +28,15 @@ separate contact lines in the output.
 By default, an image of your [Gravatar](http://www.gravatar.com) will be added
 to the HTML resumé.  This feature can be disabled by setting the environment
 variable `GRAVATAR_OPTION=--no-gravatar`.
+
+## Unicode characters
+
+The default setup should handle most unicode characters.  If you still get
+errors (such as for Chinese characters), install XeTeX and a font that has
+glyphs for the characters you need.
+
+  $ sudo apt-get install texlive-xetex ttf-wqy-zenhei
+
+Modify `header.tex` to use the name of your preferred font, then run:
+
+  $ PANDOCARGS='--latex-engine=xelatex' make
