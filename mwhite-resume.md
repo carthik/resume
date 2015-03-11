@@ -10,26 +10,21 @@ Work Experience
 
 *   **[Dimagi][0]** (Cambridge, MA)
 
+    Software Engineer, September 2012 - December 2013
+    
     Contractor, January 2014 - July 2014
 
-    Software Engineer, September 2012 - December 2013
-
     -   Maintained a legacy user-facing JavaScript XForm designer
-        -   Addressed major usability pain points by hiding XForm implementation
-            details
-        -   Reduced code complexity and improved performance through extensive
+        *   Addressed major usability pain points, added new features, fixed
+            bugs, and improved performance
+        *   Rescued an unmaintainable 10KLOC codebase through incremental
             refactoring
-        -   Introduced a plugin system to increase modularity
-        *   Added new features, including tighter integration with Dimagi's
-            data platform
-    -   Added features to a Django application for managing health data,
-        including
-        *   a site navigation framework that abstracted a variety of existing
-            elements and behaviors
-        *   a UI for viewing individual records that allows declarative custom
-            layouts for specific types
-        *   a system for saving and emailing specific versions of reports
-    -   Wrote reports for clients using CouchDB (map-reduce)
+        *   Introduced a plugin system to improve collaborative development
+            workflow
+        *   Set up testing infrastructure and the first tests
+    -   Worked on a large Django application for managing health data in a
+        collaborative environment
+    -   Wrote CouchDB-based reports for clients
 
 *   **[GetchaBooks][1]** (Medford, MA)
 
@@ -71,4 +66,9 @@ Skills
 *   Python (Django, Flask), JavaScript (jQuery, Knockout), PHP, C, SQL, git,
     Linux, and others
 
-*   Familiar with theoretical linguistics, German, Spanish
+*   Familiar with German and Spanish
+
+Interests
+---------
+
+*   History, genealogy, music, linguistics
