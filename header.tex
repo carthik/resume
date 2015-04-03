@@ -1,17 +1,20 @@
-\usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
-\usepackage{tgpagella}
+\usepackage[top=.3in, bottom=.5in, left=0.8in, right=0.8in]{geometry}
+\usepackage{setspace}
 \ifxetex
-  \usepackage{xeCJK}
-  \setCJKmainfont{WenQuanYi Zen Hei}
-  %\setmainfont[Mapping=tex-text]{TeX Gyre Pagella}
+  %\usepackage{xeCJK}
+  %\setCJKmainfont{LiSong Pro}
+  \setmainfont[Scale=0.85, Ligatures={Common, TeX}, Numbers=OldStyle]{Hoefler Text} 
+  \setmonofont{Source Code Pro}
+  \newfontfamily\sectionfont[BoldFont={* SemiBold}, Scale=1.2, Ligatures={Common, TeX}, Numbers=OldStyle]{Gill Sans} 
 \fi
 
 \usepackage{titlesec}
-\titleformat{\section}{\huge\bfseries}{\thesection}{1em}{}
-\titlespacing{\section}{0pt}{0pt}{1em}
-\titleformat{\subsection}{\large\bfseries\MakeUppercase}{\thesubsection}{1em}{}
+\titleformat{\section}{\Huge\bfseries\sectionfont\MakeUppercase}{\thesection}{1em}{}
+\titlespacing{\section}{0pt}{4pt}{0pt}
+\titleformat{\subsection}{\normalsize\sectionfont\MakeUppercase}{\thesubsection}{1em}{}
+\titlespacing{\subsection}{0pt}{*0}{0pt}
 
-%\usepackage{multicol}
+\usepackage{multicol}
 \pagestyle{empty}
 \hyphenation{Media-Wiki}
 
